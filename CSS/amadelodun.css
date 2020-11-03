@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#container{
+    margin-bottom: 150px;
+}
+
+.jumbotron{
+   background-color: khaki;
+    /* padding: 0; */
+}
+
+@media screen and (max-width: 664px){
+    div.jumbotron h1{
+        text-align: center;
+        margin: 30px 20px;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+div.jumbotron h1{
+    /* background-color: #232323; */
+    max-width: 600px;
+    text-align: center;
+    margin: 30px 20px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 800px){
+    .jumbotron{
+        /* background: rgb(97, 12, 106); */
+        display: flex;
+        /* max-width: 700px; */
+    }
+    .fa{
+        width: 40px;
+        font-size: 3000px;
+    }
+}
+
+div.col-lg-6 {
+    margin-top: 20px;
+}
+
+div.container .about{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    margin: 30px;
+
+}
+
+#aboutimage{
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+
+p#about{
+    margin: 0 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 1.2em;
+
+}
+
+@media screen and (max-width: 667px){
+    div.container .about{
+        margin-top: 100px;
+        display: block;
+    
+    }
+
+    div.container .jumbotron{
+        margin-top: 50px;
+        display: block;
+    
+    }
+
+    div.container .blog{
+        margin-top: 50px;
+        display: block;
+    
+    }
+    
+    #footermain{
+        font-size: 2rem;
+    }
+
+    .fa{
+        width: 40px;
+        font-size: 3000px;
+    }
+}
+
+.fa{
+    width: 60px;
+}
+
+#blogtext{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+/* nav{
+    display: flex;
+    float: right;
+    color: #fff;
+} */
+/* ul {
+    list-style: none;
+    display: flex;
+
+}
+nav ul li {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+
+}
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color: #0763E3;
+    transition: 1s;
+}
+nav ul li a:hover{
+    text-shadow: 0.5px 0.5px #232323;
+    opacity: 20%;
+    color: #232323;
+}
+#mylogo{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: relative;
+
+} */
+/* #profileimage {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    position: relative; */
+/* 
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    padding: 1em;
+     
+} */
+
+/* .skills {
+    list-style-type: none;
+   
+}
+.caption{
+    text-align: center;
+}
+
+ol li.skills{
+    float: left;
+    width: 100%;
+    margin: 1.5%;
+    
+} */
+
+
+footer {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    align-content: center;
+    background-color: #567583;
+    color: #d8d9d8;
+    margin-bottom: 0;
+    /* justify-content: space-between; */
+    min-height: 30vh;
+    /* line-height: 1.25em; */
+    /* clear: both; */
+    /* width: 100%; */
+    /* bottom: 0; */
+    
+}
+/* #footertext {
+    font-size: 0.75em;
+    font-weight: normal;
+    font-style: italic; 
+    color: #d8d9d8;
+} */
+/* .footerlogo {
+    height: 30px;
+    width: 30px;
+
+}*/
+.inspire {
+    font-size: 12px;
+}
+.inspire a {
+    color: #d8d9d8;
+    text-decoration: none;
+}
+.inspire a:hover {
+    color: #0728D9;
+} 
+
+/************
+PAGE:ABOUT
+*************/
+
+/* #about{
+    padding: 2em 0;
+} */
+
+/************
+PAGE:BLOG
+*************/
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #0728D9; }
+.My-Color-Theme-2-hex { color: #0763E3; }
+.My-Color-Theme-3-hex { color: #1190CB; }
+.My-Color-Theme-4-hex { color: #07D7E3; }
+.My-Color-Theme-5-hex { color: #07D9A9; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(7, 40, 217, 1); }
+.My-Color-Theme-2-rgba { color: rgba(7, 99, 227, 1); }
+.My-Color-Theme-3-rgba { color: rgba(17, 144, 203, 1); }
+.My-Color-Theme-4-rgba { color: rgba(7, 215, 227, 1); }
+.My-Color-Theme-5-rgba { color: rgba(7, 217, 169, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(230, 93, 43, 1); }
+.My-Color-Theme-2-hsla { color: hsla(214, 94, 45, 1); }
+.My-Color-Theme-3-hsla { color: hsla(199, 84, 43, 1); }
+.My-Color-Theme-4-hsla { color: hsla(183, 94, 45, 1); }
+.My-Color-Theme-5-hsla { color: hsla(166, 93, 43, 1); } 
